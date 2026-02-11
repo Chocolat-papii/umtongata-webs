@@ -333,4 +333,31 @@
 	});
 
 
+	// quote form modal
+	$(document).ready(function() {
+
+		$("#open-form-btn").click(function() {
+			$("#contact-page-2").fadeIn();
+		});
+
+		$("#close-form-btn").click(function() {
+			$("#contact-page-2").fadeOut();
+		});
+
+		$("#open-form-btn-a").click(function() {
+			$("#contact-page-2").fadeIn();
+		});
+
+		$("#close-form-btn-a").click(function() {
+			$("#contact-page-2").fadeOut();
+		});
+
+	});
+
+
+	
+
+
+
+
 }(jQuery));

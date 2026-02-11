@@ -126,7 +126,7 @@
  								<!--<div class="search-box">
  									<button class="search-btn"><i class="fas fa-search"></i></button>
  								</div>-->
-								 <a href="contact.html" class="main-btn">Get Quote</a>
+								 <a class="main-btn" id="open-form-btn">Get Quote</a>
  							</div>
  						</div>
  					</div> 
@@ -166,6 +166,113 @@
  					<div class="breadcroumb-title">
  						<h1>Services</h1>
  						<h6><a href="index.html">Home</a> / Services</h6>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+
+	<!-- quote request form -->
+
+	<div id="contact-page-2" class="contact-section blue-bg section-padding">
+ 		<div class="overlay-2"></div>
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-lg-12 col-md-12 col-12 text-center wow fadeInRight">
+ 					<div class="contact-form-wrapper-2">
+						<button type="button" class="main-btn" id="close-form-btn" style="position:absolute; top:0px; right:0px;">✕</button>
+						<div class="mt-50"></div>
+ 						<div class="section-title">
+ 							<h2>Quote Request Form</h2>
+                            <hr>
+ 						</div>
+ 						<div class="contact-form">
+ 							<form name="quote-request" method="POST" data-netlify="true" netlify action="/thank-you">
+
+                                <!-- customer info -->
+                                <h2>1. Customer Information</h2>
+                                <div class="mt-50"></div>
+ 								<div class="row">
+ 									<div class="col-lg-6 col-md-6 col-12">
+ 										<input type="text" placeholder="Contact Person" name="Contact-person">
+ 									</div>
+                                    <div class="col-lg-6 col-md-6 col-12">
+ 										<input type="text" placeholder="Company Name" name="Company-name">
+ 									</div>
+ 									<div class="col-lg-6 col-md-6 col-12">
+ 										<input type="email" placeholder="E-mail" name="Email">
+ 									</div>
+ 									<div class="col-lg-6 col-md-6 col-12">
+ 										<input type="tel" placeholder="Phone Number" name="Phone">
+ 									</div>
+                                </div>
+
+                                <!-- delivery typw -->
+                                <div class="mt-50"></div>
+                                <h2>2. Delivery Type</h2>
+                                <div class="mt-50"></div>
+ 								
+                                <select class="col-12" id="delivery-type">
+                                    <option>Delivery</option>
+                                    <option>Collection</option>
+                                </select>
+                                <div class="col-12">
+                                    <input type="text" placeholder="Adress" name="address">
+                                </div>
+
+                                <!-- Fuel Quantities -->
+
+                                <div class="mt-50"></div>
+                                <h2>3. Fuel Quantities in litres (L)</h2>
+                                <div class="mt-50"></div>
+
+                                <div class="col-12">
+                                    <label class="text-left" for="biodiesel">BIODIESEL</label>
+                                    <input type="number" class="" id="biodiesel" min="0" placeholder="0">
+                                </div>
+                                <div class="col-12">
+                                    <label class="text-left" for="D50ppm">D50ppm</label>
+                                    <input type="number" class="" id="D50ppm" min="0" placeholder="0">
+                                </div>
+                                <div class="col-12">
+                                    <label class="text-left" for="D500ppm">D500ppm</label>
+                                    <input type="number" class="" id="D500ppm" min="0" placeholder="0">
+                                </div>
+                                <div class="col-12">
+                                    <label class="text-left" for="ULP95">ULP95:</label>
+                                    <input type="number" class="" id="ULP95" min="0" placeholder="0">
+                                </div>
+                                <div class="col-12">
+                                    <label class="text-left" for="ULP93">ULP93</label>
+                                    <input type="number" class="" id="upl93" min="0" placeholder="0">
+                                </div>
+                                <div class="col-12">
+                                    <label class="text-left" for="JETA1">Jet A-1</label>
+                                    <input type="number" class="" id="JETA1" min="0" placeholder="0">
+                                </div>
+                                <div class="col-12">
+                                    <label class="text-left" for="PARAFFIN">PARAFFIN</label>
+                                    <input type="number" class="" id="PARAFFIN" min="0" placeholder="0">
+                                </div>
+                                <div class="col-12">
+                                    <label class="text-left" for="KEROSENE">KEROSENE</label>
+                                    <input type="number" class="" id="KEROSENE" min="0" placeholder="0">
+                                </div>
+
+                                <!-- additional info -->
+                                 <div class="mt-50"></div>
+                                <h2>4. Additional Info</h2>
+                                <div class="mt-50"></div>
+
+                                <div class="col-lg-12">
+                                    <textarea name="Additional-info" id="Additional-info" cols="30" rows="10" placeholder="Additional info on..."></textarea>
+                                </div>
+                                <div class="col-lg-12 col-md-6 col-12 text-center">
+                                    <button class="main-btn">Submit</button>
+                                </div>
+ 								</div>
+ 							</form>
+ 						</div>
  					</div>
  				</div>
  			</div>
