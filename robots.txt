@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://umtongatagroup.co.za/sitemap.xml

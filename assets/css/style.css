@@ -3478,15 +3478,15 @@ facility
 }
 
 .team-member-bg {
-	background-image: url(../images/NkulekoPoya.jpeg);
+	background-image: url(../images/stephen.jpeg);
 }
 
 .team-bg-2 {
-	background-image: url(../images/user.png);
+	background-image: url(../images/phindile.jpeg);
 }
 
 .team-bg-3 {
-	background-image: url(../images/user.png);
+	background-image: url(../images/inga.jpeg);
 }
 
 .team-bg-4 {
@@ -4799,4 +4799,8 @@ a.reply-btn {
 
 #close-form-btn {
 	padding: 8px 16px;
+}
+
+.logo img {
+	height: 50px;
 }
