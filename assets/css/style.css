@@ -4804,3 +4804,29 @@ a.reply-btn {
 .logo img {
 	height: 50px;
 }
+
+.pl-2 {
+	padding-left: 50px;
+}
+
+.pad-r {
+	padding-right: 25px;
+}
+
+.pr-2 {
+	transform: translateX(-35px);
+}
+
+
+@media (max-width: 768px) {
+    .pl-2 {
+        	padding-left: 12px;
+    }
+	.pr-2 {
+	transform: translateX(0px);
+	}
+	.pad-r {
+		padding-right: 0;
+	}
+
+}
