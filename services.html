@@ -23,17 +23,17 @@
  	<!-- Font Awesome CSS-->
  	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
  	<!-- Line Awesome CSS -->
- 	<link href="assets/css/line-awesome.min.css" rel="stylesheet">
+ 	<link href="assets/css/line-awesome.min.css defer" rel="stylesheet">
  	<!-- Animate CSS-->
- 	<link href="assets/css/animate.css" rel="stylesheet">
+ 	<link href="assets/css/animate.css" defer rel="stylesheet">
  	<!-- Bar Filler CSS -->
- 	<link href="assets/css/barfiller.css" rel="stylesheet">
+ 	<link href="assets/css/barfiller.css" defer rel="stylesheet">
 	<!-- Magnific Popup Video -->
-    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/magnific-popup.css" defer rel="stylesheet">
  	<!-- Flaticon CSS -->
- 	<link href="assets/css/flaticon.css" rel="stylesheet">
+ 	<link href="assets/css/flaticon.css" defer rel="stylesheet">
  	<!-- Owl Carousel CSS -->
- 	<link href="assets/css/owl.carousel.css" rel="stylesheet">
+ 	<link href="assets/css/owl.carousel.css" defer rel="stylesheet">
  	<!-- Style CSS -->
  	<link href="assets/css/style.css" rel="stylesheet">
  	<!-- Responsive CSS -->
@@ -48,6 +48,17 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
+
+
+	<script type="speculationrules">
+            {
+                "prerender": [
+                {
+                    "urls": ["/", "/about.html", "/services.html", "/contact.html",]
+                }
+                ]
+            }
+	</script>
 	<script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -834,7 +845,7 @@
 					<p class="copyright-line">© 2026 Umtongata Group. All rights reserved.</p>
 				</div>
 				<div class="col-lg-6 col-md-6 col-xs-12 text-md-end">
-					<p class="privacy">Proudly designed by <a href="www.smconnect.co.za" target="_blank">smconnect</a>.</p>
+					<p class="privacy">Proudly designed by <a href="https://smconnect.co.za/" target="_blank">smconnect</a>.</p>
 				</div>
 			</div>
 		</div>
